@@ -1,0 +1,82 @@
+
+.container {
+  color: white;
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+  margin-bottom: 60px;
+}
+.left-column, .right-column {
+  flex: 1;
+  min-width: 200px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.right-column {
+  padding-top: 30px;
+  padding-right: 10px;
+  margin-right: 50px;
+}
+.container h3,
+.container h1,
+.container p {
+  color: white;
+  margin: 5px 0;
+}
+
+.container h3 {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.container h1 {
+  font-weight: 600;
+  font-size: 2.5em;
+}
+
+.container p {
+  font-weight: 400;
+  font-size: 1em;
+}
+.close-btn {
+  padding-left: 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+}
+.button-primary,
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  background-color: #6161ff !important;
+  font-size: 110% !important;
+  margin-bottom: 40px !important;
+  min-width: 150px;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+input::placeholder {
+    color: #CCCCCC; 
+}
+.form-table tr td h4 {
+    vertical-align: top;
+    margin-block-start: 0em;
+}
+.input-description {
+    color: #999999;
+    padding-left: 10px;
+}
+.additional_steps {
+  display: block;
+}
